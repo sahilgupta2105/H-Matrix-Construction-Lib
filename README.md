@@ -1,2 +1,3 @@
-# h-matrix
-Constructs a Hierarchical Matrix from a given Sparse Matrix using purely Algebraic Construction Technique
+# Hierarchical Matrix construction library
+
+This C++ library constructs a hierarchical matrix (introduced by Prof. Hackbush) from a given sparse matrix. The library is based on algebraic construction process and uses no geometric information, whatsoever. This process has been described by Fang Yang and Suely Oliveira, U of Iowa in their paper. Although the library gives out a desirable H-matrix, it is slow as compared to other highly-optimized libaries avaliable on internet such as HLibPro. In addition, my library uses a supporting library called Eigen, to handle all manipulations related to linear algebra.
